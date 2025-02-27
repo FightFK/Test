@@ -2,7 +2,7 @@
 import React from "react";
 import { Layout, Card, Row, Col, Button } from "antd";
 import LanguageSwitcher from "../../components/LanguageSwitcher";
-import { useRouter } from "next/navigation"; // ✅ ใช้ useRouter
+import { useRouter } from "next/navigation"; 
 import "./i18n";
 import { useTranslation } from "react-i18next";
 
@@ -13,9 +13,9 @@ export default function Home() {
   const router = useRouter(); // ✅ ใช้ router เพื่อนำทาง
 
   const cardData = [
-    { title: t("title"), description: t("description"),link: "/test1"},
-    { title: t("title2"), description: t("description"),link: "/test2" },
-    { title: t("title3"), description: t("description") ,link: "/test3"},
+    { title: t("title"), description: t("description1"),link: "/test1"},
+    { title: t("title2"), description: t("description2"),link: "/test2" },
+    { title: t("title3"), description: t("description3") ,link: "/test3"},
   ];
 
   return (

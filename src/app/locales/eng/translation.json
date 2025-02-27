@@ -1,9 +1,32 @@
 {
-    "title" : "Test1",
-    "title2" : "Test2",
-    "title3" : "Test3",
-    "description1" : "descriptiontest",
-    "description2" : "descriptiontest",
-    "description3" : "descriptiontest",
-    "layout" : "Layout"
-}
+    "title": "Test 1",
+    "title2": "Test 2",
+    "title3": "Test 3",
+    "description1": "Layout & Style",
+    "description2": "Context API",
+    "description3": "Form & Table",
+    "layout": "Layout Management",
+    "form":"Form & Table",
+    "Titlez": "Title",
+    "firstname": "First Name:",
+    "lastname": "Last Name:",
+    "birthday": "Birthday:",
+    "nationality": "Nationality:",
+    "citizenid": "Citizen ID:",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "unsex": "Unsex",
+    "mobile": "Mobile Number:",
+    "passport": "Passport",
+    "salary": "Expected Salary",
+    "reset":"Reset",
+    "submit":"Submit",
+    "selectall":"selectAll",
+    "deselectall":"DeselectAll",
+    "delete":"DELETE",
+    "name":"Name "
+
+
+  }
+  
