@@ -1,9 +1,14 @@
-import React from 'react'
-
-const page = () => {
+"use client";
+import React from "react";
+import Form from "../../../components/form"
+import Table from "../../../components/table"
+const Page: React.FC = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <Form />
+      <Table />
+    </div>
+  );
+};
 
-export default page
+export default Page;
